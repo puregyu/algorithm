@@ -65,17 +65,37 @@ public class PhoneNumber {
 		 * 
 		 * Collections.sort() 를 사용한 
 		 */
-		List<String> sortedList = new ArrayList<>(Arrays.asList(phone_book));
-		Collections.sort(sortedList);
+//		List<String> sortedList = new ArrayList<>(Arrays.asList(phone_book));
+//		Collections.sort(sortedList);
+//		
+//		for (int i = 0; i < sortedList.size()-1; i++) {
+//			for (int j = i+1; j < sortedList.size(); j++) {
+//				if(sortedList.get(j).startsWith(sortedList.get(i))) {
+//					answer = false;
+//					break;
+//				}
+//			}
+//		}
 		
-		for (int i = 0; i < sortedList.size()-1; i++) {
-			for (int j = i+1; j < sortedList.size(); j++) {
-				if(sortedList.get(j).startsWith(sortedList.get(i))) {
-					answer = false;
-					break;
-				}
-			}
-		}
+		
+		/**
+		 * @푼사람 Others
+		 * @채점결과
+		 * 채점 결과
+		 * 합격
+		 * 
+		 * Collections.sort() 를 사용한 
+		 */
+		for(int i=0; i<phone_book.length-1; i++) {
+            for(int j=i+1; j<phone_book.length; j++) {
+                if(phone_book[i].startsWith(phone_book[j])) {
+                	answer = false;
+            	}
+                if(phone_book[j].startsWith(phone_book[i])) {
+                	answer = false;
+            	}
+            }
+        }
 		
 		System.out.println(answer);
 	}
