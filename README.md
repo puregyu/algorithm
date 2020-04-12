@@ -15,3 +15,17 @@ Solving algorithm problems with Java language
 
 ### 그리디(Greedy)
 > 
+
+### BPS(Breadth-First Search, 너비 우선 탐색)
+>
+
+### DFS(Depth-First Search, 깊이 우선 탐색)
+>
+
+### 다이나믹 프로그래밍
+>
+
+### 완전 탐색
+>
+
+### 그리디
