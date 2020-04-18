@@ -3,6 +3,7 @@ package algorithm.greedy;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Stack;
 
 public class BigNumber {
 	public static void main(String[] args) {
@@ -16,22 +17,25 @@ public class BigNumber {
 //		number는 1자리 이상, 1,000,000자리 이하인 숫자입니다.
 //		k는 1 이상 number의 자릿수 미만인 자연수입니다.
 		
-		String number = "1924";
-		int k = 2;
+		String number = "4177252841"; // 10자리
+		int k = 4; // 4자리 제거
+		String answer = ""; // 6자리 수를 만들어야함
 		
-		char[] array = new char[number.length()];
-		for (int i = 0; i < array.length; i++) {
-			array[i] = number.charAt(i);
-		}
+		// 가장 큰 수 찾기
+		char[] result = new char[number.length() - k];
+        Stack<Character> stack = new Stack<>();
+
+        for (int i=0; i<number.length(); i++) {
+            char c = number.charAt(i);
+            while (!stack.isEmpty() && stack.peek() < c && k-- > 0) {
+                stack.pop();
+            }
+            stack.push(c);
+        }
+        for (int i=0; i<result.length; i++) {
+            result[i] = stack.get(i);
+        }
 		
-		Arrays.sort(array);
-		
-		String answer = "";
-		for (int i = 0; i < k; i++) {
-			char b = array[number.length()-i-1];
-			answer += String.valueOf(b);
-		}
-		
-		System.out.println("정답 : "+answer);
+		System.out.println("정답 : "+new String(result));
 	}
 }

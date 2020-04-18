@@ -1,8 +1,6 @@
 package algorithm.greedy;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 
 public class GymSuit {
 	public static void main(String[] args) {
@@ -31,17 +29,25 @@ public class GymSuit {
 
         for (int l : lost) 
             people[l-1]--;
+        
         for (int r : reserve) 
             people[r-1]++;
         
+        System.out.println(Arrays.toString(people));
+        
         for (int i = 0; i < people.length; i++) {
-            if(people[i] == -1) {
+        	// 체육복 없냐?
+        	if(people[i] == -1) {
+        		
+        		// 첫번째 사람이 아니고, 전 사람이 체육복 있냐?
                 if(i-1>=0 && people[i-1] == 1) {
                     people[i]++;
                     people[i-1]--;
+                // 마지막 사람이 아니고, 다음 사람이 체육복 있냐?
                 }else if(i+1< people.length && people[i+1] == 1) {
                     people[i]++;
                     people[i+1]--;
+                // 앞 사람, 뒤 사람 둘 다 체육복 없냐?
                 }else 
                     answer--;
             }
