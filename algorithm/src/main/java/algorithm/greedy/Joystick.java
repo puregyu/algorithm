@@ -9,19 +9,22 @@ public class Joystick {
 		int move = 0;
 		
 		// 'A'의 아스키코드
-		int centerNum = 65;
+		int ANum = 65;
 		
 		for (int i = 0; i < name.length(); i++) {
 			array[i] = name.charAt(i);
 		}
 		
 		for (int i = 0; i < array.length; i++) {
+			
 			int num = array[i];
+			System.out.println(num);
 			
 			if(array[i] != 'A') {
+				// N = 78
 				if(num <= 78) {
 					// N 보다 작거나 같다 (A ~ N)
-					int b= (num - centerNum);
+					int b= (num - ANum);
 					move += b;
 				}else {
 					// N 보다 크다 (O ~ Z)
