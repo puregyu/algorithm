@@ -1,4 +1,4 @@
-package algorithm.test;
+package main.java.algorithm.test;
 
 import java.util.HashMap;
 

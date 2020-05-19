@@ -1,4 +1,4 @@
-package algorithm.depthSearch;
+package main.java.algorithm.depthSearch;
 
 public class TargetNum {
 	public static void main(String[] args) {

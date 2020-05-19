@@ -1,4 +1,4 @@
-package algorithm.greedy;
+package main.java.algorithm.greedy;
 
 public class Joystick {
 	public static void main(String[] args) {

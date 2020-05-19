@@ -1,4 +1,4 @@
-package algorithm.bp;
+package main.java.algorithm.bp;
 
 import java.util.ArrayList;
 import java.util.Arrays;

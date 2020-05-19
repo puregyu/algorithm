@@ -1,4 +1,4 @@
-package algorithm.test;
+package main.java.algorithm.test;
 
 public class Test {
 	public static void main(String[] args) {

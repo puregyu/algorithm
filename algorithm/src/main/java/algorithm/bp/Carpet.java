@@ -1,4 +1,4 @@
-package algorithm.bp;
+package main.java.algorithm.bp;
 
 public class Carpet {
 	public static void main(String[] args) {

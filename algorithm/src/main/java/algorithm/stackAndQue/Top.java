@@ -1,4 +1,4 @@
-package algorithm.stackAndQue;
+package main.java.algorithm.stackAndQue;
 
 import java.util.Arrays;
 import java.util.Stack;

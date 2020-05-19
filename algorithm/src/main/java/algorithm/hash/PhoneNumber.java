@@ -1,4 +1,4 @@
-package algorithm.hash;
+package main.java.algorithm.hash;
 
 import java.util.ArrayList;
 import java.util.Arrays;

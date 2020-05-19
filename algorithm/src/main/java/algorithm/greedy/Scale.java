@@ -1,4 +1,4 @@
-package algorithm.greedy;
+package main.java.algorithm.greedy;
 
 import java.util.Arrays;
 import java.util.HashSet;

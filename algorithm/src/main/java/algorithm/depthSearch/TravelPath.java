@@ -1,4 +1,4 @@
-package algorithm.depthSearch;
+package main.java.algorithm.depthSearch;
 
 import java.util.Arrays;
 
