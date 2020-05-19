@@ -2,9 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5085fe-4b9f-4ee6-915f-3c859d3f0091" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algorithm/bp/IronPipe.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algorithm/bp/Square.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algorithm/queue/PassingOnBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/META-INF/algorithm.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/bp/Carpet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/bp/DecimalSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/bp/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/bp/IronPipe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/bp/NumberBaseball.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/bp/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/depthSearch/TargetNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/depthSearch/TravelPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/greedy/BigNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/greedy/Boat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/greedy/Camera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/greedy/GymSuit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/greedy/Joystick.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/greedy/Scale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/hash/BestAlbum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/hash/Camouflage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/hash/Maraton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/hash/PhoneNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/queue/Ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/queue/PassingOnBridge$Truck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/queue/PassingOnBridge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/recursion/Ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/sort/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/sort/LargeNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/sort/NumK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/stack/Ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/stackAndQue/Top.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/test/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/algorithm/test/Test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/bp/Carpet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/bp/DecimalSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/bp/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/bp/NumberBaseball.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/depthSearch/TargetNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/depthSearch/TravelPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/greedy/BigNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/greedy/Boat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/greedy/Camera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/greedy/GymSuit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/greedy/Joystick.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/greedy/Scale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/hash/BestAlbum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/hash/Camouflage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/hash/Maraton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/hash/PhoneNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/queue/Ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/recursion/Ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/sort/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/sort/LargeNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/sort/NumK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/stack/Ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/stackAndQue/Top.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/test/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/algorithm/test/Test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/algorithm/main/java/algorithm/queue/PassingOnBridge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
@@ -150,7 +213,7 @@
       <workItem from="1589037560295" duration="6670000" />
       <workItem from="1589585062202" duration="374000" />
       <workItem from="1589591902118" duration="3173000" />
-      <workItem from="1589891086754" duration="309000" />
+      <workItem from="1589891086754" duration="649000" />
     </task>
     <servers />
   </component>
